@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+main #center{
+    width: 60%;
+    height: 60%;
+    background-color: salmon;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.imgdiv{
+    width: 150px;
+    height: 200px;
+    /* background-color: red; */
+    position: absolute;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.imgdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateY(100%);
+}
